@@ -26,6 +26,8 @@
     
             {{-- Contact Us --}}
             <livewire:main.components.contact-us />
+
+            <livewire:main.components.video />
         </div>
     </main>
     
