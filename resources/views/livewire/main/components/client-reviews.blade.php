@@ -1,17 +1,14 @@
 <section id="client_reviews">
     <div class="container-fluid container-lg p-5">
         <div class="row gx-5 mb-5">
-            <div id="clients" class="carousel slide" data-bs-ride="carousel">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12 col-lg-4">
-                            <div class="testimonial-title" data-aos="fade-right">
-                                <h2 class="fw-bold display-5 text-center mb-3">What our customers say</h2>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-lg-8 text-center" data-aos="fade-left">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="3000">
+            <div class="container-fluid container-lg p-5" data-aos="fade-up">
+            <div class="mb-5 text-center" data-aos="zoom-out">
+                <h1 class="fw-bolder mb-0">What our customers say</h1>
+            </div>      
+                 <!-- Carousel wrapper -->
+                    <div id="clients" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
+                        <div class="carousel-inner">
+                             <div class="carousel-item active" data-bs-interval="3000">
                                     <div class="px-5">
                                         <div class="card-body">
                                             <h5 class="card-title mb-3 text-primary">
@@ -23,11 +20,13 @@
                                                 involvement based on our needs."
                                             </p>
         
-                                            <p>
-                                                @for ($i = 0; $i < 5; $i++)
-                                                <i class="fa-regular fa-star text-warning"></i>
-                                                @endfor
-                                            </p>
+                                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="far fa-star fa-sm"></i></li>
+                                            </ul>
         
                                             <p class="lead">
                                                 TodaPH
@@ -35,8 +34,7 @@
                                         </div>
                                     </div>
                                 </div>
-    
-                                <div class="carousel-item" data-bs-interval="3000">
+                            <div class="carousel-item" data-bs-interval="3000">
                                     <div class="px-5">
                                         <div class="card-body">
                                             <h5 class="card-title mb-3 text-primary">
@@ -47,11 +45,13 @@
                                                 "They understand our mission and want to help us succeed."
                                             </p>
         
-                                            <p>
-                                                @for ($i = 0; $i < 5; $i++)
-                                                <i class="fa-regular fa-star text-warning"></i>
-                                                @endfor
-                                            </p>
+                                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            </ul>
         
                                             <p class="lead">
                                                 9 Diamond Inc.
@@ -59,8 +59,7 @@
                                         </div>
                                     </div>
                                 </div>
-    
-                                <div class="carousel-item" data-bs-interval="3000">
+                            <div class="carousel-item" data-bs-interval="3000">
                                     <div class="px-5">
                                         <div class="card-body">
                                             <h5 class="card-title mb-3 text-primary">
@@ -71,11 +70,13 @@
                                                 "It was easy, and they were approachable."
                                             </p>
         
-                                            <p>
-                                                @for ($i = 0; $i < 5; $i++)
-                                                <i class="fa-regular fa-star text-warning"></i>
-                                                @endfor
-                                            </p>
+                                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            </ul>
         
                                             <p class="lead">
                                                 Quantum Management Corporation
@@ -83,8 +84,7 @@
                                         </div>
                                     </div>
                                 </div>
-    
-                                <div class="carousel-item" data-bs-interval="3000">
+                            <div class="carousel-item" data-bs-interval="3000">
                                     <div class="px-5">
                                         <div class="card-body">
                                             <h5 class="card-title mb-3 text-primary">
@@ -96,11 +96,13 @@
                                                 and I think that kept us motivated."
                                             </p>
         
-                                            <p>
-                                                @for ($i = 0; $i < 5; $i++)
-                                                <i class="fa-regular fa-star text-warning"></i>
-                                                @endfor
-                                            </p>
+                                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            </ul>
         
                                             <p class="lead">
                                                 IHG
@@ -108,8 +110,7 @@
                                         </div>
                                     </div>
                                 </div>
-    
-                                <div class="carousel-item" data-bs-interval="3000">
+                            <div class="carousel-item" data-bs-interval="3000">
                                     <div class="px-5">
                                         <div class="card-body">
                                             <h5 class="card-title mb-3 text-primary">
@@ -120,11 +121,13 @@
                                                 "They always understand our position and work with us to find good solutions together."
                                             </p>
         
-                                            <p>
-                                                @for ($i = 0; $i < 5; $i++)
-                                                <i class="fa-regular fa-star text-warning"></i>
-                                                @endfor
-                                            </p>
+                                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            </ul>
         
                                             <p class="lead">
                                                 Tulay sa PagUnlad Inc.
@@ -132,18 +135,17 @@
                                         </div>
                                     </div>
                                 </div>
-    
-    
-                                <button class="carousel-control-prev" type="button" data-bs-target="#clients" data-bs-slide="prev">
+                        </div>
+                         <button class="carousel-control-prev" type="button" data-bs-target="#clients" data-bs-slide="prev">
                                     <i class="fa-solid fa-angle-left text-white bg-primary fs-2 p-2 rounded" aria-hidden="true"></i>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
                                 <button class="carousel-control-next" type="button" data-bs-target="#clients" data-bs-slide="next">
                                     <i class="fa-solid fa-angle-right text-white bg-primary fs-2 p-2 rounded" aria-hidden="true"></i>
                                     <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
+                        </button>
                         </div>
+                        <!-- Carousel wrapper -->
                     </div>
                 </div>
             </div>

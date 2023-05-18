@@ -4,10 +4,10 @@ namespace App\Http\Livewire\Main\Components;
 
 use Livewire\Component;
 
-class Video extends Component
+class Projects extends Component
 {
     public function render()
     {
-        return view('livewire..main.components.video');
+        return view('livewire.main.components.projects');
     }
 }

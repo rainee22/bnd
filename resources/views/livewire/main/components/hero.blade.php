@@ -31,6 +31,8 @@
             </div>
         </div>
     </div>
+    <p style="text-align: center;">Trusted by individuals and teams at the world's 
+      best companies</p>
 </section>
 
 

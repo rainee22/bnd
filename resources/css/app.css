@@ -171,3 +171,30 @@
   margin-bottom: 10px;
 }
  
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+#partners img {
+  width: 80%;
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+#partners img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  #partners img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+  #partners img {
+    width: 30%;
+  }
+}

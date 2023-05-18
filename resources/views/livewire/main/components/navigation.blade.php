@@ -27,14 +27,13 @@
                         <a class="nav-link px-1" href="#services">Services</a>
                     </li>
                     <li class="nav-item me-3">
+                        <a class="nav-link px-1" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item me-3">
                         <a class="nav-link px-1" href="#faq">FAQ</a>
                     </li>
-
                     <li class="nav-item me-3">
                         <a class="nav-link px-1" href="#contact_us">Contact Us</a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link px-1" href="#video">Video</a>
                     </li>
                     @endif
 

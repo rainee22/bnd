@@ -8,26 +8,27 @@
         <div data-bs-spy="scroll" data-bs-target="#navigation" data-bs-smooth-scroll="true">
             {{-- Hero --}}
             <livewire:main.components.hero />
-    
-            {{-- About Us --}}
-            <livewire:main.components.about-us />
-            
+
             {{-- Partners --}}
             <livewire:main.components.partners />
 
+            {{-- About Us --}}
+            <livewire:main.components.about-us />
+            
             {{-- Client Reviews --}}
             <livewire:main.components.client-reviews />
     
             {{-- Services --}}
             <livewire:main.components.services />
-    
+
+            {{-- Projects --}}
+            <livewire:main.components.projects />
+
             {{--  Frequently Asked Questions --}}
             <livewire:main.components.faq />
     
             {{-- Contact Us --}}
             <livewire:main.components.contact-us />
-
-            <livewire:main.components.video />
         </div>
     </main>
     
