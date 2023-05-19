@@ -16,32 +16,30 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbar">
                 <ul class="navbar-nav pe-3 mb-2 mb-lg-0 fw-semibold">
-                    @if (Str::is($currentRouteName, 'index'))
+                    {{-- @if (Str::is($currentRouteName, 'index')) --}}
                     <li class="nav-item me-3">
-                        <a class="nav-link px-1" href="#hero">Home</a>
+                        <a class="nav-link px-1" href="/">Home</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link px-1" href="#about_us">About Us</a>
+                        <a class="nav-link px-1" href="{{ route('about-us') }}">About Us</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link px-1" href="#services">Services</a>
+                        <a class="nav-link px-1" href="{{ route('services') }}">Services</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link px-1" href="#projects">Projects</a>
+                        <a class="nav-link px-1" href="{{ route('projects') }}">Projects</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link px-1" href="#faq">FAQ</a>
+                        <a class="nav-link px-1" href="{{ route('faq') }}">FAQ</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link px-1" href="#contact_us">Contact Us</a>
+                        <a class="nav-link px-1" href="{{ route('contact') }}">Contact Us</a>
                     </li>
-                    @endif
+                    {{-- @endif --}}
 
-                    @if (Str::is($currentRouteName, 'services'))
-                    <li class="nav-item">
-                        <a class="nav-link px-1" href="{{ route('index') }}">Home</a>
-                    </li>
-                    @endif
+                    {{-- @if (Str::is($currentRouteName, 'services')) --}}
+                    
+                    {{-- @endif --}}
                 </ul>
 
                 <div>

@@ -26,6 +26,9 @@
       @livewireStyles
    </head>
    <body>
+
+      {{-- nav-components --}}
+      @livewire('main.components.navigation')
       
       <!-- Pre loader -->
       <div class="loading bg-body">
@@ -43,6 +46,11 @@
       </div>
 
       @yield('content')
+
+      <footer>
+         {{-- Footer --}}
+         @livewire('main.components.footer');
+      </footer>
 
       <!-- JQuery -->
       <script src="https://code.jquery.com/jquery-3.6.4.js" 

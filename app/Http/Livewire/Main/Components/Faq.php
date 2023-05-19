@@ -70,6 +70,6 @@ class Faq extends Component
 
     public function render()
     {
-        return view('livewire.main.components.faq');
+        return view('livewire.main.components.faq')->extends('layouts.app');
     }
 }

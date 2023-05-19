@@ -1,9 +1,9 @@
 <section id="services">
     <div class="container-fluid container-lg p-5">
         <div data-aos="fade-down">
-            <h1 class="text-center fw-bolder mb-0" data-aos="zoom-in">Services</h1>
+            <h1 class="text-center fw-bolder mb-0" data-aos="zoom-in">Our Offers</h1>
             <h5 class="fw-bold mb-4 text-center" data-aos="zoom-in">
-                Our services are built on three foundational values:
+                Our offers are built on three foundational values:
             </h5>
         </div>
         

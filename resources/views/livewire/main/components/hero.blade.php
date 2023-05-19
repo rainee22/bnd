@@ -31,8 +31,11 @@
             </div>
         </div>
     </div>
+    <br><br><br><br><br><br>
     <p style="text-align: center;">Trusted by individuals and teams at the world's 
       best companies</p>
+
+      @livewire('main.components.partners')
 </section>
 
 
