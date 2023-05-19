@@ -68,4 +68,5 @@
          </div>
       </div>
    </div>
+   @livewire('main.components.client-reviews')
 </section>
