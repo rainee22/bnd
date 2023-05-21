@@ -12,8 +12,4 @@
         </div>
     </main>
     
-    <footer>
-        {{-- Footer --}}
-        
-    </footer>
 @endsection
