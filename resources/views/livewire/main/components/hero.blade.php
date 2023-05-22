@@ -1,5 +1,5 @@
 <section id="hero" style="background-image: url(../images/backgrounds/wave-bg-6.svg)" class="bg-cover">
-    <div class="container-fluid container-lg px-5 pt-md-3 pb-md-5 text-body-emphasis">
+    <div class="container-fluid container-lg px-5 pt-md-3 pb-md-5 text-body-emphasis" style="margin-top:50px">
         <div class="row gx-5 align-items-center justify-content-center" data-aos="fade-up">
             <div class="col-md-8 col-lg-6" data-aos="zoom-in">
                 <div class="my-5 text-center text-xl-start">

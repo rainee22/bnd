@@ -1,5 +1,5 @@
 <section id="faq">
-   <div class="container-fluid-xs container-lg p-5 ">
+   <div class="container-fluid-xs container-lg p-5 " style="margin-top:50px">
       <div class="row gx-5 mb-5" data-aos="fade-down">
          <div class="col-lg-12 text-center">
             <h1 class="fw-bolder mb-0">Frequently Asked Questions</h1>

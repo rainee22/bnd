@@ -214,3 +214,19 @@
 .btn-icon-animation {
   animation: pulse 5s infinite;
 }
+
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #3498db;
+}
+
+
+#navbar .nav-link.active {
+  color: #3498db;
+}

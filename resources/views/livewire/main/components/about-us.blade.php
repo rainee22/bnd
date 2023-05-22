@@ -3,7 +3,7 @@
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=6AqfGK6s"></script> <!-- replace with KEY-->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-    <div class="container-fluid container-lg p-5" data-aos="fade-up">
+    <div class="container-fluid container-lg p-5" data-aos="fade-up" style="margin-top:50px">
         <div class="mb-5 text-center" data-aos="zoom-out">
             <h1 id="h00"class="fw-bolder mb-0">About Us</h1>
         </div>
@@ -59,9 +59,7 @@
                     </div>
                 </div>
                 {{-- reader --}}
-
-                <button class="btn btn-sm btn-primary btn-icon-animation "
-                onclick=
+                <button class="btn btn-sm btn-primary btn-icon-animation"  onclick=
                 "responsiveVoice.speak($('#h00').text()),
                 responsiveVoice.speak($('#h0').text()),
                 responsiveVoice.speak($('#h1').text()),
@@ -69,11 +67,10 @@
                 responsiveVoice.speak($('#h2').text()),
                 responsiveVoice.speak($('#text1').text()),
                 responsiveVoice.speak($('#h3').text()),
-                responsiveVoice.speak($('#text2').text());"> Read this for me
-                  <i class="bi bi-arrow-right-circle"></i>
+                responsiveVoice.speak($('#text2').text());"> 
+                    <i class="fa-solid fa-play">&nbsp;</i> Read this for me             
                 </button>
-
-            </div>
+            </div>  
 
             <div class="col-md-10 col-lg-6 order-1 order-lg-2 text-center" data-aos="zoom-in">
                 <img class="img-fluid" src="{{ asset('images/about-us.svg') }}" alt="About US" loading="lazy">
@@ -95,8 +92,8 @@
                 
                 {{-- reader --}}
                 <button class="btn btn-sm btn-primary btn-icon-animation" 
-                onclick="responsiveVoice.speak($('#h000').text()),responsiveVoice.speak($('#text').text());"> Read this for me
-                  <i class="bi bi-arrow-right-circle"></i>
+                onclick="responsiveVoice.speak($('#h000').text()),responsiveVoice.speak($('#text').text());"> 
+                   <i class="fa-solid fa-play">&nbsp;</i> Read this for me
                 </button>
             </div>
         </div>

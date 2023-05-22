@@ -1,4 +1,4 @@
-<section id="navigation">
+<section id="navigation" class="fixed-top">
     <nav class="navbar navbar-expand-md bg-body-tertiary shadow-sm p-1">
         <div class="container-fluid container-md">
             <a class="navbar-brand pt-2" href="/">

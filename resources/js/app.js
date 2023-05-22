@@ -22,3 +22,10 @@ AOS.init({
     loadingScreen.style.display = "none";
  });
 
+ //navbar
+ document.querySelectorAll(".nav-link").forEach((link) => {
+   if (link.href === window.location.href) {
+       link.classList.add("active");
+       link.setAttribute("aria-current", "page");
+   }
+});
