@@ -10,13 +10,15 @@
                         We offer a choice of system development services 
                         to meet your demands. For your business, we provide the best and most personalized solutions.
                     </p>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center justify-content-xl-start"> 
+
+
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center justify-content-xl-start">
                         <a class="btn btn-primary btn-lg px-4 me-1 shadow-sm rounded-pill" href="#contact_us"
-                        data-aos="slide-right" data-aos-delay="200">
+                            data-aos="slide-right" data-aos-delay="200">
                             Get Started
                         </a>
                         <a class="btn btn-secondary btn-lg px-4 shadow rounded-pill" href="#about_us"
-                        data-aos="slide-right" data-aos-delay="100">
+                            data-aos="slide-right" data-aos-delay="100">
                             Learn More
                         </a>
                     </div>
@@ -24,18 +26,14 @@
             </div>
 
             <div class="col-md-9 col-lg-6 d-none d-md-block text-center" data-aos="zoom-out">
-                <img class="img-fluid animated-up-down" 
-                src="{{ asset('images/software-developer.svg')}}" 
-                alt="Software Developer" 
-                loading="lazy"/>
+                <img class="img-fluid animated-up-down" src="{{ asset('images/software-developer.svg') }}"
+                    alt="Software Developer" loading="lazy" />
             </div>
         </div>
     </div>
     <br><br><br><br><br><br>
-    <p style="text-align: center;">Trusted by individuals and teams at the world's 
-      best companies</p>
+    <p style="text-align: center;">Trusted by individuals and teams at the world's
+        best companies</p>
 
-      @livewire('main.components.partners')
+    @livewire('main.components.partners')
 </section>
-
-
