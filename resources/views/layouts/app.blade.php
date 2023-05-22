@@ -49,7 +49,7 @@
 
       <footer>
          {{-- Footer --}}
-         @livewire('main.components.footer');
+         @livewire('main.components.footer')
       </footer>
 
       <!-- JQuery -->
