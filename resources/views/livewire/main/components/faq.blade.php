@@ -17,7 +17,7 @@
                               <button class="accordion-button collapsed bg-body border-bottom 
                                  border-primary" type="button" data-bs-toggle="collapse" 
                                  data-bs-target="#left_collapse_{{ $loop->index+1 }}" aria-expanded="false" 
-                                 aria-controls="left_collapse_{{ $loop->index+1 }}">
+                                 aria-controls="left_collapse_{{ $loop->index+1 }}" onmouseover="expandAccordion(this)">
                               <i class="fa-solid fa-circle-question fa-lg me-2"></i> 
                               <strong>{{ $question['question'] }}</strong> 
                               </button>
@@ -40,7 +40,7 @@
                               <button class="accordion-button collapsed bg-body border-bottom 
                                  border-primary" type="button" data-bs-toggle="collapse" 
                                  data-bs-target="#right_collapse_{{ $loop->index+1 }}" aria-expanded="false" 
-                                 aria-controls="right_collapse_{{ $loop->index+1 }}">
+                                 aria-controls="right_collapse_{{ $loop->index+1 }}" onmouseover="expandAccordion(this)">
                               <i class="fa-solid fa-circle-question fa-lg me-2"></i> 
                               <strong>{{ $question['question'] }}</strong> 
                               </button>
@@ -61,3 +61,10 @@
       </div>
    </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+   function expandAccordion(element) {
+      $(element).click();
+   }
+</script>

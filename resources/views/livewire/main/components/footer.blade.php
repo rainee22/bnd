@@ -23,7 +23,7 @@
                 <div class="text-center text-md-end pt-3 pt-md-0">
                    <a href="https://web.facebook.com/BDITConsultancy" class="me-3 link-body-emphasis" target="_blank"><i class="fa-brands fa-facebook h4"></i></a>
                    <a href="#twitter" class="me-3 link-body-emphasis"><i class="fa-brands fa-twitter h4"></i></a>
-                   <a href="https://www.instagram.com/bditconsultancy" class="me-3 link-body-emphasis"><i class="fa-brands fa-instagram h4"></i></a>
+                   <a href="https://www.instagram.com/bditconsultancy" class="me-3 link-body-emphasis" target="_blank"><i class="fa-brands fa-instagram h4"></i></a>
                    <a href="#linkedin" class="me-3 link-body-emphasis"><i class="fa-brands fa-linkedin h4"></i></a>
                    <a href="#github" class="link-body-emphasis"><i class="fa-brands fa-github h4"></i></a>
                 </div>

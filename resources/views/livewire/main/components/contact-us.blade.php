@@ -29,7 +29,7 @@
                         <span>Location:</span>
                      </div>
                      <p>
-                        717 Paso Street Barangay Bagbaguin, Bocaue, Philippines
+                        717 Paso Street Barangay, Bagbaguin, Santa Maria, Bulacan, Philippines
                      </p>
                   </div>
    
@@ -49,7 +49,7 @@
                            <span>Phone:</span>
                      </div>
                      <p>
-                           0939-982-9442
+                           0939-982-9441
                      </p>
                   </div>
 
@@ -69,7 +69,7 @@
 
             <div class="col-12 col-md-8 d-none d-md-block" data-aos="fade-left">
                <div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10910.264918178696!2d120.9297527254298!3d14.806761876746638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ad0c7521cd23%3A0x61cff65b27b1b2dd!2s471%20G%20Cruz%2C%20Bocaue%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1678342294038!5m2!1sen!2sph" 
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123370.24545805508!2d120.86854564747237!3d14.919245280010276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397addb88b9ef23%3A0x6f41d62dbe9daff5!2sMlhuillier%20Express!5e0!3m2!1sen!2sph!4v1684816248527!5m2!1sen!2sph"
                   class="w-100 border-bottom border-primary rounded shadow-sm" height="450" allowfullscreen="" loading="lazy" 
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>

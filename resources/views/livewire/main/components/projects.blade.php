@@ -11,17 +11,9 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <iframe class="d-block w-100" src="https://drive.google.com/file/d/1VnrTGurg-pJuDwOICAT7xgvbGiOIQkWI/preview" width="440" height="480" allow="autoplay" alt="First slide"></iframe>                
-                </div>
-                <div class="carousel-item">
-                    <iframe class="d-block w-100" src="https://drive.google.com/file/d/1QjCABAzOkOHK8TCx8XDeOIV3t3nG0LUZ/preview" width="440" height="480" allow="autoplay" alt="Second slide"></iframe>
-                </div>
-                <div class="carousel-item">
                     <iframe class="d-block w-100" src="https://drive.google.com/file/d/1Qz-sHdTM13jTuPBeKCiaP9Ay4vjMakjN/preview" width="440" height="480" allow="autoplay" alt="Third slide"></iframe>                
                 </div>
                  <div class="carousel-item">
@@ -46,8 +38,6 @@
         <li> <a href="#">Link Sample 2</a> </li>
         <li> <a href="#">Link Sample 3</a> </li>
         <li> <a href="#">Link Sample 4</a> </li>
-        <li> <a href="#">Link Sample 5</a> </li>
-        <li> <a href="#">Link Sample 6</a> </li>
         </ul>
 
 </div>
