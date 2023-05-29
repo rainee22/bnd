@@ -1,54 +1,89 @@
 <section id="projects">
-    <div class="container-fluid container-lg p-5" style="margin-top:50px">
-        <div data-aos="fade-down">
-            <h1 class="text-center fw-bolder mb-0" data-aos="zoom-in">Projects</h1>
-            <h5 class="fw-bold mb-4 text-center" data-aos="zoom-in">
-                Some of our projects are included here
-            </h5>
-        </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1Qz-sHdTM13jTuPBeKCiaP9Ay4vjMakjN/preview" allow="autoplay"></iframe>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1KxGmbgo9DkpnxkX8dWdsGRqKth_nMliS/preview" allow="autoplay"></iframe>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1MfrrADs-ar4BXwx9JFjw4FdynXlBpVIT/preview" allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        
-        
-        
-        <br><br>
-        <h5 class="fw-bold mb-4">These are some of the website links available</h5>
-        <ul class="fw-bold">
-        <li> <a href="#">Link Sample 1</a> </li>
-        <li> <a href="#">Link Sample 2</a> </li>
-        <li> <a href="#">Link Sample 3</a> </li>
-        <li> <a href="#">Link Sample 4</a> </li>
-        </ul>
+   <div class="container-fluid container-lg p-5" style="margin-top:50px">
+      <div data-aos="fade-down">
+         <h1 class="text-center fw-bolder mb-0" data-aos="zoom-in">Projects</h1>
+         <h5 class="fw-bold mb-4 text-center" data-aos="zoom-in">
+            Some of our projects are included here
+         </h5>
+      </div>
+      
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+               <div class="col">
+                  <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1Qz-sHdTM13jTuPBeKCiaP9Ay4vjMakjN/preview" data-width="500" data-height="281" data-target="#myModal" data-video-fullscreen="">
+                  <img src="{{ asset('images/img1.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+               </div>
 
-</div>
+               <div class="col">
+                  <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1KxGmbgo9DkpnxkX8dWdsGRqKth_nMliS/preview" data-width="500" data-height="281" data-target="#myModal" data-video-fullscreen="">
+                  <img src="{{ asset('images/img2.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+               </div>
+
+               <div class="col">
+                  <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1MfrrADs-ar4BXwx9JFjw4FdynXlBpVIT/preview" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">
+                  <img src="{{ asset('images/img3.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+               </div>
+
+               <div class="col">
+                  <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1F1_vOajfNqcZXoHIAfZmEwSjYw7RAIva/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
+                  <img src="{{ asset('images/img4.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+               </div>
+
+               <div class="col">
+                  <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1xIakDgPjr8fiRwnoowZpnNyY7ogFiHiU/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
+                  <img src="{{ asset('images/img5.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <div class="close-button">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                     </div>
+                     <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="100%" height="480" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+			</div>
+   </div>
 </section>
+
+
+
+
+<script>
+( function($) {
+  
+function iframeModalOpen(){
+
+		$('.modalButton').on('click', function(e) {
+			var src = $(this).attr('data-src');
+			var width = $(this).attr('data-width') || 640; 
+			var height = $(this).attr('data-height') || 360; 
+
+			var allowfullscreen = $(this).attr('data-video-fullscreen'); 
+			
+			$("#myModal iframe").attr({
+				'src': src,
+				'height': height,
+				'width': width,
+				'allowfullscreen':''
+			});
+		});
+
+		$('#myModal').on('hidden.bs.modal', function(){
+			$(this).find('iframe').html("");
+			$(this).find('iframe').attr("src", "");
+		});
+	}
+  
+  $(document).ready(function(){
+		iframeModalOpen();
+  });
+  
+  } ) ( jQuery );
+  </script>

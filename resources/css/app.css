@@ -230,3 +230,11 @@
 #navbar .nav-link.active {
   color: #3498db;
 }
+
+.row {
+  margin: 15px;
+}
+
+img{
+	max-width: 100%;
+}
