@@ -11,27 +11,27 @@
             <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
                <div class="col">
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1Qz-sHdTM13jTuPBeKCiaP9Ay4vjMakjN/preview" data-width="500" data-height="281" data-target="#myModal" data-video-fullscreen="">
-                  <img src="{{ asset('images/img1.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+                  <img src="{{ asset('images/img1.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Munisipyo Mobile App"></button>
                </div>
 
                <div class="col">
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1KxGmbgo9DkpnxkX8dWdsGRqKth_nMliS/preview" data-width="500" data-height="281" data-target="#myModal" data-video-fullscreen="">
-                  <img src="{{ asset('images/img2.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+                  <img src="{{ asset('images/img2.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Social Media Management"></button>
                </div>
 
                <div class="col">
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1MfrrADs-ar4BXwx9JFjw4FdynXlBpVIT/preview" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">
-                  <img src="{{ asset('images/img3.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+                  <img src="{{ asset('images/img3.jpg') }}"  style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="MEDtrix Hospital System"></button>
                </div>
 
                <div class="col">
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1F1_vOajfNqcZXoHIAfZmEwSjYw7RAIva/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
-                  <img src="{{ asset('images/img4.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+                  <img src="{{ asset('images/img4.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Human Resources Information System"></button>
                </div>
 
                <div class="col">
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1xIakDgPjr8fiRwnoowZpnNyY7ogFiHiU/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
-                  <img src="{{ asset('images/img5.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;"></button>
+                  <img src="{{ asset('images/img5.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Barangay Bansalan Information System"></button>
                </div>
             </div>
          </div>
