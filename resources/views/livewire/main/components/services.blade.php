@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-center data-aos="fade-down">
+        <div class="row justify-content-center" data-aos="fade-down">
             <div class="col-md-4 p-0" data-aos="zoom-in" data-aos-delay="200">
                 <div class="card border-0">
                     <div class="card-body text-body-emphasis text-body-emphasis"">

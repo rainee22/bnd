@@ -14,7 +14,7 @@
             </div>
 
             <div class="col-lg-2 col-md-4 col-6 p-1 text-center">
-                <img src="{{ asset('images/devworld.png') }}" class="img-fluid" alt="partner 4">
+                <a><img src="{{ asset('images/devworld.png') }}" class="img-fluid" alt="partner 4"></a>
             </div>
         </div>
     </div>
