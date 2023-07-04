@@ -1,5 +1,5 @@
 <section id="client_reviews">
-    <div class="container-fluid container-lg p-5">
+    {{-- <div class="container-fluid container-lg p-5">
         <div class="row gx-5 mb-5">
             <div class="container-fluid container-lg p-5" data-aos="fade-up">
             <div class="mb-5 text-center" data-aos="zoom-out">
@@ -150,5 +150,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
  </section>
