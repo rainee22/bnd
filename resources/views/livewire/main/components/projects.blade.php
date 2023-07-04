@@ -39,11 +39,12 @@
                   <img src="{{ asset('images/img6.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Legislative Tracking System"></button>
                </div>
 
+               {{-- GAS MONITORING SYSTEM --}}
                <div class="col">
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/1t0bfEXLKOaQbf5mML6CpXfcJrNayLv4G/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
                   <img src="{{ asset('images/img6.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Legislative Tracking System"></button>
                </div>
-
+               {{-- EMPPLOYEE PORTAL SYSTEM --}}
                <div class="col">
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/13zNhP8fKs7Xx2_LjF6HRV0grC4qbdrG5/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
                   <img src="{{ asset('images/img6.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Legislative Tracking System"></button>
