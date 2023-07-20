@@ -49,6 +49,11 @@
                   <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/13zNhP8fKs7Xx2_LjF6HRV0grC4qbdrG5/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
                   <img src="{{ asset('images/img8.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Employee Portal System"></button>
                </div>
+               {{-- POINT OF SALE --}}
+                <div class="col">
+                  <button type="button" class="modalButton" data-toggle="modal" data-src="https://drive.google.com/file/d/11RedoVSpVGFEMQ8Lw9hAHXo_XVXa83bY/preview"  data-width="600" data-height="450" data-target="#myModal" data-video-fullscreen="">
+                  <img src="{{ asset('images/img9.png') }}" style="background-color: #ffffff; padding: 15px; width: 100%; box-shadow: 0 0 15px rgba(0,0,0,0.3); cursor: pointer;" title="Point of Sale System"></button>
+               </div>
             </div>
             </div>
          </div>
