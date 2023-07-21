@@ -5,7 +5,7 @@
       <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>{{ config('app.name', 'Laravel') }}</title>
+      <title>B&D IT Consultancy</title>
 
       <!-- Fonts -->
       <link rel="preconnect" href="https://fonts.bunny.net">
